@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+*/__pycache__
+/.vscode
+/.idea
+/out
+advent_of_code.iml

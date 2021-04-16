@@ -1,0 +1,11 @@
+import re
+file = open("input.txt", "r").read()
+arr_l = re.findall(r'[a-z](?=:)', file)
+arr_p = re.findall(r'\d+(?=-)', file)
+arr_s = re.findall(r'\d+(?= \w:)', file)
+arr_pass = re.findall(r'\w+(?=,\n?)', file)
+print(arr_pass)
+print(len(arr_l))
+print(len(arr_p))
+print(len(arr_s))
+print(len(arr_pass))
